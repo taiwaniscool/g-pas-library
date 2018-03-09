@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+html{
+  background-color:black;
+  color:white
+}
+button{
+  background-color : rgb(255,33,203)  
+}
+
+.bigFontSize{
+  font-family : cursive;
+  font-size : 20px
+}
+
+
+<button onclick="addToKaden()" class="special">Kaden</button>
+<div class="bigFontSize"> Kaden checkout: <span id="Kaden"></span></div>
+<button onclick="addToAmalie()">Amalie</button><div class="bigFontSize">Amalie checkout: <span id="Amalie"></span></div>
+
+<button onclick="addToRyley()" class="special">Ryley</button>
+<div class="bigFontSize">Ryley checkout: <span id="Ryley"></span></div>
+<button onclick="addToJulien()" class="special">Julien</button>
+<div class="bigFontSize">Julien checkout: <span id="Julien"></span></div>
+<button onclick="addToKalista()" class="special">Kalista</button>
+<div class="bigFontSize">Kalista checkout: <span id="Kalista"></span></div>
+<button onclick="addToLucas()" class="special">Lucas</button>
+<div class="bigFontSize">Lucas checkout: <span id="Lucas"></span></div>
+<button onclick="addToEmmett()" class="special">Emmett</button>
+<div class="bigFontSize"> Emmett checkout: <span id="Emmett"></span></div>
+
+<button onclick="addToMiles()" class="special">Miles</button>
+<div class="bigFontSize">Miles checkout: <span id="Miles"></span></div>
+
+
+var Kaden = 0;
+var Amalie = 0;
+var Ryley = 0;
+var Julien = 0;
+var Kalista = 0;
+var Lucas = 0;
+var Emmett = 0;
+var Miles = 0;
+
+function addToKaden(){
+  Kaden += 1;
+document.querySelector('#Kaden').innerText = Kaden;
+}  
+function addToAmalie(){
+  Amalie += 1;
+ document.querySelector('#Amalie').innerText = Amalie;
+}   
+function addToRyley(){
+  Ryley += 1;
+ document.querySelector('#Ryley').innerText = Ryley;
+}     
+function addToJulien(){
+  Julien += 1;
+document.querySelector('#Julien').innerText =Julien ;
+}        
+function addToKalista(){
+  Kalista += 1;
+   document.querySelector('#Kalista').innerText = Kalista;
+}       
+  function addToLucas(){
+  Lucas += 1;
+ document.querySelector('#Lucas').innerText = Lucas;
+}           
+function addToEmmett(){
+  Emmett += 1; document.querySelector('#Emmett').innerText = Emmett;
+}
+function addToMiles() {
+  Miles += 1;
+  document.querySelector('#Miles').innerText = Miles;
+}
